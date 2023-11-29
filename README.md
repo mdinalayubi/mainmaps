@@ -50,4 +50,4 @@ public class MainMaps extends FragmentActivity implements OnMapReadyCallback {
 
 ```
 ## Output
-![gambar](output/output.mp4)
+![Video](output/output.mp4)
