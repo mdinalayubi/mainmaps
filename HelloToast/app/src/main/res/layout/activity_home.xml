@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:layout_marginEnd="0dp"
+    android:background="@drawable/ic_launcher_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainLauncherSplashLogo">
+
+    <ImageView
+        android:id="@+id/arrasynet_logo_transparant_2"
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:adjustViewBounds="true"
+        android:padding="50dp"
+        android:src="@drawable/ay1" />
+
+    <Button
+        android:id="@+id/btnHello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorButton"
+        android:text="Project Hello Toast"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorButton"
+        android:text="Project Count"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnSianida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorButton"
+        android:text="Project Sianida"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnTwoActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorButton"
+        android:text="Project TwoActivity"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/colorButton"
+        android:onClick="createAlarm"
+        android:text="Project SetAlarm"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/colorButton"
+        android:text="Project Maps"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+</LinearLayout>
